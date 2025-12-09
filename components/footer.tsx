@@ -24,7 +24,7 @@ export default function Footer() {
           >
             <Image src="/logo.png" alt="Muniwilla" width={200} height={80} className="h-16 w-auto" />
             <p className="text-gray-600 leading-relaxed">
-              Leading manufacturer of premium lubricants and automotive fluids. Trusted by professionals worldwide for
+              Leading manufacturer of Muniwilla Lubricants and automotive fluids. Trusted by professionals worldwide for
               over three decades.
             </p>
             <div className="space-y-3">
@@ -36,7 +36,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3 text-gray-600">
                 <Phone className="w-5 h-5 text-yellow-600" />
-                <span className="text-sm">+91 95205 96609</span>
+                <span className="text-sm">+91 9510596609</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-600">
                 <Mail className="w-5 h-5 text-yellow-600" />

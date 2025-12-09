@@ -86,7 +86,7 @@ export default function Preloader() {
               transition={{ duration: 1, delay: 0.8 }}
               className="text-xl text-gray-600 mb-8"
             >
-              Premium Lubricants & Engine Oils
+              Muniwilla Lubricants & Engine Oils
             </motion.p>
 
             {/* Oil Container Animation */}

@@ -165,18 +165,7 @@ export default function SemiSyntheticCarPage() {
                   </div>
                 </div>
 
-                {/* Sizes and Prices */}
-                <div className="mb-6">
-                  <h4 className="font-semibold text-gray-800 mb-3">Available Sizes:</h4>
-                  <div className="space-y-2">
-                    {product.sizes.map((size, idx) => (
-                      <div key={idx} className="flex justify-between items-center bg-gray-50 px-3 py-2 rounded-lg">
-                        <span className="text-sm text-gray-700">{size.split(" - ")[0]}</span>
-                        <span className="font-semibold text-yellow-600">{size.split(" - ")[1]}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
+
 
                 <div className="flex gap-3">
                   <Link href={`/product/${product.id}`} className="flex-1">

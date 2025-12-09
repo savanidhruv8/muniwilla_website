@@ -108,7 +108,7 @@ export default function ProductCategories() {
           <h2 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">Our Product Categories</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-amber-500 mx-auto mb-6 rounded-full"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive range of premium lubricants engineered for every automotive and industrial need.
+            Comprehensive range of Muniwilla Lubricants engineered for every automotive and industrial need.
           </p>
         </motion.div>
 

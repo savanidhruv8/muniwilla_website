@@ -1257,47 +1257,7 @@ export default function ProductDetailPage() {
                 </div>
               )}
 
-              {/* Sizes and Pricing */}
-              <div>
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Available Sizes and Prices</h3>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  {product.sizes.map((item: any, index: number) => (
-                    <motion.div
-                      key={item.size}
-                      whileHover={{ scale: 1.02 }}
-                      className={`relative p-4 rounded-xl border-2 cursor-pointer transition-all duration-300 ${
-                        index === 0 ? "border-yellow-400 bg-yellow-50" : "border-gray-200 hover:border-yellow-300"
-                      }`}
-                    >
-                      {index === 0 && (
-                        <Badge className="absolute -top-2 -right-2 bg-yellow-500 text-white text-xs">Popular</Badge>
-                      )}
-                      <div className="text-center">
-                        <p className="font-semibold text-gray-800">{item.size}</p>
-                        <p className="text-xl font-bold text-yellow-600">Rs. {item.price}</p>
-                      </div>
-                    </motion.div>
-                  ))}
-                </div>
-              </div>
 
-              {/* CTA Buttons */}
-              <div className="flex gap-4">
-                <Button
-                  size="lg"
-                  className="flex-1 bg-gradient-to-r from-yellow-500 to-amber-600 hover:from-yellow-400 hover:to-amber-500 text-white"
-                >
-                  <ShoppingCart className="w-5 h-5 mr-2" />
-                  Get Quote
-                </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-yellow-500 text-yellow-600 hover:bg-yellow-50 bg-transparent"
-                >
-                  Contact Sales
-                </Button>
-              </div>
             </motion.div>
           </div>
 

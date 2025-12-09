@@ -34,7 +34,7 @@ export default function HeroSection() {
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold leading-tight tracking-tight">
-            <span className="text-gray-800">Premium</span>
+            <span className="text-gray-800">Muniwilla</span>
             <br />
             <span className="text-amber-600">Lubricants</span>
           </h1>

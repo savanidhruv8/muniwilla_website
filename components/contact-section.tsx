@@ -49,7 +49,7 @@ export default function ContactSection() {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+91 95205 96609"],
+      details: ["+91 9510596609"],
     },
     {
       icon: Mail,
