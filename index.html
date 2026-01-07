@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Muniwilla Lubricants - Premium lubricants and automotive fluids. Leading manufacturer of engine oils, greases, and industrial lubricants.">
+  <title>Muniwilla Lubricants | Premium Engine Oils & Lubricants</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container navbar-content">
+      <!-- Logo -->
+      <a href="index.html" class="navbar-logo">
+        <img src="images/logo.png" alt="Muniwilla Lubricants">
+      </a>
+
+      <!-- Desktop Navigation -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#products" class="nav-link">
+            Products
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="pages/motorcycle-oil.html" class="dropdown-link">Motorcycle/Bike Moped Oil</a>
+            <a href="pages/automotive-heavy-duty.html" class="dropdown-link">Automotive Heavy Duty Oil</a>
+            <a href="pages/automotive-products.html" class="dropdown-link">Automotive Products</a>
+            <a href="pages/semi-synthetic-car.html" class="dropdown-link">Semi Synthetic Car Oil</a>
+            <a href="pages/tractor-segment.html" class="dropdown-link">Tractor Segment</a>
+            <a href="pages/industrial-lubricants.html" class="dropdown-link">Industrial Lubricants</a>
+            <a href="pages/three-wheeler.html" class="dropdown-link">Three Wheeler Oil</a>
+            <a href="pages/grease-products.html" class="dropdown-link">Grease Products</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        <svg id="close-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <div>
+        <span class="mobile-nav-link">Products</span>
+        <div class="mobile-dropdown">
+          <a href="pages/motorcycle-oil.html">Motorcycle/Bike Moped Oil</a>
+          <a href="pages/automotive-heavy-duty.html">Automotive Heavy Duty Oil</a>
+          <a href="pages/automotive-products.html">Automotive Products</a>
+          <a href="pages/semi-synthetic-car.html">Semi Synthetic Car Oil</a>
+          <a href="pages/tractor-segment.html">Tractor Segment</a>
+          <a href="pages/industrial-lubricants.html">Industrial Lubricants</a>
+          <a href="pages/three-wheeler.html">Three Wheeler Oil</a>
+          <a href="pages/grease-products.html">Grease Products</a>
+        </div>
+      </div>
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <!-- Background Slider -->
+    <div class="hero-slider">
+      <div class="hero-slide active">
+        <img src="images/main po.png" alt="Muniwilla Lubricants Products">
+      </div>
+    </div>
+    <div class="hero-overlay"></div>
+
+    <!-- Hero Content -->
+    <div class="hero-content fade-in">
+      <h1 class="hero-title">
+        <span class="text-dark">Muniwilla</span>
+        <br>
+        <span class="text-gradient">Lubricants</span>
+      </h1>
+      <p class="hero-subtitle">
+        Advanced lubrication technology engineered for exceptional performance and lasting protection.
+      </p>
+      <div class="hero-buttons">
+        <a href="#products" class="btn btn-primary btn-lg">
+          Explore Products
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-outline btn-lg">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Categories Section -->
+  <section id="products" class="section section-gray">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header fade-in">
+        <h2 class="section-title">Product Categories</h2>
+        <p class="section-subtitle">
+          Comprehensive range of premium lubricants engineered for automotive and industrial excellence.
+        </p>
+      </div>
+
+      <!-- Categories Grid -->
+      <div class="categories-grid">
+        <!-- Motorcycle Oil -->
+        <a href="pages/motorcycle-oil.html" class="category-card fade-in fade-in-delay-1">
+          <div class="category-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18.5" cy="17.5" r="3.5"/><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="15" cy="5" r="1"/><path d="M12 17.5V14l-3-3 4-3 2 3h2"/></svg>
+          </div>
+          <h3 class="category-name">Motorcycle / Bike Moped Engine Oil</h3>
+          <p class="category-description">Premium engine oils engineered for optimal motorcycle, bike, and moped performance.</p>
+          <div class="category-products">
+            <span>STAREX 20W40-SL</span>
+            <span>STAREX SILVER 20W40-SM</span>
+            <span class="more">+2 more</span>
+          </div>
+          <div class="category-link">
+            View Products
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <!-- Automotive Heavy Duty -->
+        <a href="pages/automotive-heavy-duty.html" class="category-card fade-in fade-in-delay-2">
+          <div class="category-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 13.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg>
+          </div>
+          <h3 class="category-name">Automotive Heavy Duty Engine Oil</h3>
+          <p class="category-description">Industrial-strength engine oils designed for commercial vehicles demanding maximum durability.</p>
+          <div class="category-products">
+            <span>SUPEREX 15W40-CF-4</span>
+            <span>SUPEREX 15W40-CH-4</span>
+            <span class="more">+2 more</span>
+          </div>
+          <div class="category-link">
+            View Products
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <!-- Automotive Products -->
+        <a href="pages/automotive-products.html" class="category-card fade-in fade-in-delay-3">
+          <div class="category-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"/><path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"/></svg>
+          </div>
+          <h3 class="category-name">Automotive Products</h3>
+          <p class="category-description">Complete range of high-quality automotive fluids and specialty products.</p>
+          <div class="category-products">
+            <span>ATF DEX II (DEXRON II)</span>
+            <span>FORK OIL 10W</span>
+            <span class="more">+2 more</span>
+          </div>
+          <div class="category-link">
+            View Products
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <!-- Semi Synthetic Car -->
+        <a href="pages/semi-synthetic-car.html" class="category-card fade-in fade-in-delay-4">
+          <div class="category-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C1.4 11.3 1 12.2 1 13.2V16c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
+          </div>
+          <h3 class="category-name">Semi Synthetic Car Engine Oil</h3>
+          <p class="category-description">Advanced semi-synthetic formulations for diesel and gasoline engines.</p>
+          <div class="category-products">
+            <span>GELEXY (CNG SPECIAL) 20W50-SL</span>
+            <span>ULTRA 0.2 20W50-SN</span>
+            <span class="more">+2 more</span>
+          </div>
+          <div class="category-link">
+            View Products
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <!-- Tractor Segment -->
+        <a href="pages/tractor-segment.html" class="category-card fade-in fade-in-delay-1">
+          <div class="category-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h9l1 7"/><path d="M4 11V4"/><path d="M8 10V4"/><path d="M18 5c-.6 0-1 .4-1 1v5.6"/><path d="m10 11 11 .9c.6 0 .9.5.8 1.1l-.8 5h-1"/><circle cx="7" cy="15" r="4"/><path d="M7 15h.01"/><circle cx="17" cy="18" r="2"/></svg>
+          </div>
+          <h3 class="category-name">Tractor Segment</h3>
+          <p class="category-description">Specialized lubricants formulated for agricultural machinery.</p>
+          <div class="category-products">
+            <span>TRACTON 20W40-SN</span>
+            <span>UTTO SAE-30-85W/SL-4</span>
+          </div>
+          <div class="category-link">
+            View Products
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <!-- Industrial Lubricants -->
+        <a href="pages/industrial-lubricants.html" class="category-card fade-in fade-in-delay-2">
+          <div class="category-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M17 18h1"/><path d="M12 18h1"/><path d="M7 18h1"/></svg>
+          </div>
+          <h3 class="category-name">Industrial Lubricants</h3>
+          <p class="category-description">Professional-grade industrial lubricants for heavy machinery.</p>
+          <div class="category-products">
+            <span>GEAR GT - EP-90-GL 4/5</span>
+            <span>HYDRO - YELLOW(ISO VG 32,46,68)</span>
+            <span class="more">+2 more</span>
+          </div>
+          <div class="category-link">
+            View Products
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <!-- Three Wheeler -->
+        <a href="pages/three-wheeler.html" class="category-card fade-in fade-in-delay-3">
+          <div class="category-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/></svg>
+          </div>
+          <h3 class="category-name">Three Wheeler Engine Oil</h3>
+          <p class="category-description">Purpose-built oils offering superior protection for three-wheelers.</p>
+          <div class="category-products">
+            <span>CNG 2T</span>
+            <span>RED X</span>
+          </div>
+          <div class="category-link">
+            View Products
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <!-- Grease Products -->
+        <a href="pages/grease-products.html" class="category-card fade-in fade-in-delay-4">
+          <div class="category-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3 class="category-name">Automotive & Industrial Grease</h3>
+          <p class="category-description">Multi-purpose premium greases for automotive and industrial applications.</p>
+          <div class="category-products">
+            <span>CALCIUM GREASE MP-3</span>
+            <span>LITHIUM GREASE AP-3</span>
+            <span class="more">+2 more</span>
+          </div>
+          <div class="category-link">
+            View Products
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section id="about" class="section" style="background: var(--color-gray-50);">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header fade-in">
+        <h2 class="section-title">Why Muniwilla</h2>
+        <p class="section-subtitle">
+          Three decades of excellence in lubrication technology, delivering unmatched performance.
+        </p>
+      </div>
+
+      <!-- Features Grid -->
+      <div class="features-grid">
+        <!-- Premium Quality -->
+        <div class="feature-card fade-in fade-in-delay-1">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/></svg>
+          </div>
+          <div class="feature-stats">
+            <span class="feature-stats-value">99.9%</span>
+            <span class="feature-stats-label">Purity</span>
+          </div>
+          <h3 class="feature-title">Premium Quality</h3>
+          <p class="feature-description">ISO certified manufacturing with stringent quality control processes ensuring consistency and reliability.</p>
+        </div>
+
+        <!-- Engine Protection -->
+        <div class="feature-card fade-in fade-in-delay-2">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>
+          </div>
+          <div class="feature-stats">
+            <span class="feature-stats-value">50%</span>
+            <span class="feature-stats-label">Less Wear</span>
+          </div>
+          <h3 class="feature-title">Engine Protection</h3>
+          <p class="feature-description">Advanced formulations providing superior wear protection and extended engine life under all conditions.</p>
+        </div>
+
+        <!-- High Performance -->
+        <div class="feature-card fade-in fade-in-delay-3">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg>
+          </div>
+          <div class="feature-stats">
+            <span class="feature-stats-value">300°C</span>
+            <span class="feature-stats-label">Stability</span>
+          </div>
+          <h3 class="feature-title">High Performance</h3>
+          <p class="feature-description">Engineered for extreme conditions with exceptional thermal stability and viscosity retention.</p>
+        </div>
+
+        <!-- Trusted Worldwide -->
+        <div class="feature-card fade-in fade-in-delay-4">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <div class="feature-stats">
+            <span class="feature-stats-value">10K+</span>
+            <span class="feature-stats-label">Customers</span>
+          </div>
+          <h3 class="feature-title">Trusted Worldwide</h3>
+          <p class="feature-description">Preferred choice of automotive professionals and industrial experts across the globe.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section" style="background: var(--color-gray-50);">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header fade-in">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+          Ready for premium lubrication solutions? Contact us for expert consultation.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper fade-in">
+          <form id="contact-form" class="contact-form">
+            <h3>Send a Message</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="name">Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="you@example.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" class="form-input" placeholder="+91 98765 43210">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message">Message</label>
+              <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your requirements..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              Send Message
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info fade-in">
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="contact-info-content">
+              <h4>Address</h4>
+              <p>Ground Floor, Ramji Industriyal,</p>
+              <p>A-8, Pasodara Rd, Kamrej,</p>
+              <p>Surat, Gujarat 394185</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="contact-info-content">
+              <h4>Phone</h4>
+              <p>+91 9510596609</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div class="contact-info-content">
+              <h4>Email</h4>
+              <p>info@muniwilla.com</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="contact-info-content">
+              <h4>Hours</h4>
+              <p>Mon - Sat: 9:00 AM - 6:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="Muniwilla" class="footer-logo">
+          <p class="footer-description">
+            Leading manufacturer of premium lubricants and automotive fluids. Trusted by professionals worldwide for over three decades.
+          </p>
+          <div class="footer-contact">
+            <div class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Ramji Industriyal, Pasodara Rd, Kamrej, Surat 394185</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+91 9510596609</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <span>info@muniwilla.com</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products Links -->
+        <div class="footer-section">
+          <h3>Products</h3>
+          <div class="footer-links">
+            <a href="pages/motorcycle-oil.html">Motorcycle Oil</a>
+            <a href="pages/automotive-heavy-duty.html">Heavy Duty Oil</a>
+            <a href="pages/automotive-products.html">Automotive Products</a>
+            <a href="pages/semi-synthetic-car.html">Car Engine Oil</a>
+            <a href="pages/tractor-segment.html">Tractor Oil</a>
+            <a href="pages/industrial-lubricants.html">Industrial Lubricants</a>
+          </div>
+        </div>
+
+        <!-- Company Links -->
+        <div class="footer-section">
+          <h3>Company</h3>
+          <div class="footer-links">
+            <a href="#about">About Us</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2024 Muniwilla Lubricants. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
