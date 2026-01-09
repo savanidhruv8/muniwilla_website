@@ -1,0 +1,22 @@
+# Robots.txt for Muniwilla Lubricants
+# https://muniwilla.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://muniwilla.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 10
+
+# Disallow common non-content directories
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Allow all important pages
+Allow: /index.html
+Allow: /pages/
+Allow: /images/
+Allow: /css/
+Allow: /js/
